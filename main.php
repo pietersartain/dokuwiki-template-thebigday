@@ -89,6 +89,9 @@ if (!defined('DOKU_INC')) die();
       <div class="clearer"></div>
     </div>
     <!-- header stop -->
+	
+  <img src="<?php echo $DOKU_TPL?>images/hearts.png" style="position: absolute; top:5px; left: 1px;" />
+
 
     <?php /*old includehook*/ @include(dirname(__FILE__).'/header.html')?>
 	
@@ -147,6 +150,8 @@ if (!defined('DOKU_INC')) die();
   </div>
   <?php } ?>
   <!-- sidebar stop -->
+
+  <img src="<?php echo $DOKU_TPL?>images/drapes.png" style="position: absolute; top:82px; left: 1px;" />
 
   <!-- page start -->
   <div class="page">
