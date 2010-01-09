@@ -150,8 +150,11 @@ if (!defined('DOKU_INC')) die();
   </div>
   <?php } ?>
   <!-- sidebar stop -->
-
-  <img src="<?php echo $DOKU_TPL?>images/drapes.png" style="position: absolute; top:82px; left: 1px;" />
+	  
+	  <img src="<?php echo $DOKU_TPL?>images/drapes-left.png" style="position: absolute; top:137px; left: 1px;" />
+	  <img src="<?php echo $DOKU_TPL?>images/drapes-right.png" style="position: absolute; top:137px; left: 211px;" />
+	  <img src="<?php echo $DOKU_TPL?>images/drapes-top.png" style="position: absolute; top:82px; left: 1px;" />
+	  <img src="<?php echo $DOKU_TPL?>images/drapes-tag.png" style="position: absolute; top:137px; left: 109px;" />
 
   <!-- page start -->
   <div class="page">
@@ -162,9 +165,6 @@ if (!defined('DOKU_INC')) die();
   
   </div>
   <!-- page stop -->
-
-
-
 
 </div>
 <!-- content stop -->
